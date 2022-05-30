@@ -26,6 +26,9 @@ modules:
         url: https://github.com/assaultcube/AC.git
         tag: v1.3.0.2
         commit: 1ece5af7533983bb8f827616381d282470793d90
+        x-checker-data:
+          type: git
+          tag-pattern: ^v([\d.]+)$
       - type: shell
         commands:
           - sed -i 's#CUBE_DIR=$(dirname "$(readlink -f "${0}")")#CUBE_DIR=/app/share/assaultcube/#g' assaultcube.sh
