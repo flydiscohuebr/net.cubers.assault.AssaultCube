@@ -15,12 +15,24 @@
   <url type="homepage">https://assault.cubers.net/</url>
   <url type="bugtracker">https://github.com/assaultcube/AC/issues</url>
   <screenshots>
-    <screenshot>https://assault.cubers.net/screenshots/screenshots-large/ac_mines_CTF_SMG_large01.jpg</screenshot>
-    <screenshot>https://assault.cubers.net/screenshots/screenshots-large/ac_mines_CTF_SMG_large00.jpg</screenshot>
-    <screenshot>https://assault.cubers.net/screenshots/screenshots-large/ac_complex_DM_SG_large00.jpg</screenshot>
-    <screenshot>https://assault.cubers.net/screenshots/screenshots-large/ac_complex_DM_SR_large00.jpg</screenshot>
-    <screenshot>https://assault.cubers.net/screenshots/screenshots-large/ac_complex_DM_pist_large00.jpg</screenshot>
-    <screenshot>https://assault.cubers.net/screenshots/screenshots-large/ac_complex_DM_gren_large00.jpg</screenshot>
+    <screenshot type="default">
+      <image>https://assault.cubers.net/screenshots/screenshots-large/ac_mines_CTF_SMG_large01.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>https://assault.cubers.net/screenshots/screenshots-large/ac_mines_CTF_SMG_large00.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>https://assault.cubers.net/screenshots/screenshots-large/ac_complex_DM_SG_large00.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>https://assault.cubers.net/screenshots/screenshots-large/ac_complex_DM_SR_large00.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>https://assault.cubers.net/screenshots/screenshots-large/ac_complex_DM_pist_large00.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>https://assault.cubers.net/screenshots/screenshots-large/ac_complex_DM_gren_large00.jpg</image>
+    </screenshot>
   </screenshots>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-realistic">intense</content_attribute>
@@ -33,4 +45,5 @@
     <release date="2022-01-24" version="1.3.0.1" />
     <release date="2021-12-04" version="1.3.0.0" />
   </releases>
+  <launchable type="desktop-id">net.cubers.assault.AssaultCube.desktop</launchable>
 </component>
